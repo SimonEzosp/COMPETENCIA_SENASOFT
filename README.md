@@ -1,0 +1,2 @@
+# COMPETENCIA_SENASOFT
+Competencia 
