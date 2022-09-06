@@ -1,0 +1,101 @@
+*{margin:0;padding:0;}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+textarea{
+    font-size:2.5vh;
+    font-weight:bold;
+}
+
+nav{
+    font-size: 3vh;
+    padding:2vh;
+    text-align:right;
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding:1vh; 
+}
+
+nav li:hover{
+    background-color: gray;
+}
+
+.contenedor{
+    margin: 2vh 10vh;
+    display: grid;
+    gap:5vh;
+    grid-template-columns:110vh 40vh;
+    grid-template-areas:"contenido visualizador ";
+}
+
+.contenido{
+    background-color: whitesmoke;
+}
+
+.cards{
+    grid-area:cards;
+    padding:2vh;
+    margin: 3vh 10vh;
+    background-color: gray;
+ }
+
+.cards h1{
+    margin:2vh;
+    font-size:5vh;
+}
+
+.cards p{
+    margin:4vh;
+    font-size:3vh;
+}
+
+.visualizador{
+    float:right;
+    width:60vh;
+    margin-right:10vh;
+    position: static;
+    padding:2vh;
+    background-color: whitesmoke;
+}
+
+.card{
+    grid-area:cards;
+    padding:2vh;
+    margin: 3vh 10vh;
+    background-color: gray;
+ }
+
+ .card h1{
+    margin:2vh;
+    font-size:5vh;
+ }
+
+.card p{
+    margin:4vh;
+    font-size:3vh;
+}
+
+footer{
+    padding:2vh;
+    background-color: black;
+}
+footer h1{
+    color:white;
+    font-size:3vh;
+}
+footer h2{
+    text-align:center;
+    margin:3vh 0vh;
+    color:white;
+    font-size:2vh;
+}
