@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/crearSondeo.css">
+    <link rel="shortcut icon" href="icono-admin.jfif">
+    <title>Document</title>
+</head>
+<header>
+
+</header>
+<nav>
+    <ul>
+        <li><a href="administrador.html">inicio</a></li>
+        <li><a href="">Cuenta</a></li>
+</nav>
+<body>
+    <div class="crearSondeo">
+        <form action="">
+            <h1>CREAR SONDEO</h1>
+            <h2>Seleccione el tema del sondeo</h2>
+            <select name="" id="">
+                <option value="">seleccione el tema</option>
+                <option value="">Seguridad</option>
+                <option value="">Ambiente</option>
+                <option value="">Politica</option>
+                <option value="">Religion</option>
+                <option value="">Educacion basica</option>
+                <option value="">Educacion media</option>
+                <option value="">Educacion alta</option>
+                <option value="">Salud</option>
+                <option value="">Tecnologias</option>
+                <option value="">Eleccciones presidenciales</option>
+                <option value="">Elecciones del congreso nacional</option>
+            </select>
+            <h2>Titulo del Sondeo</h2>
+            <input  class="box" type="text" name="tituloSondeo" required placeholder="Ingrese el Titulo">
+            <h2>Descripcion</h2>
+            <textarea name="descripcionSondeo" id="descripcionSondeo" cols="30" rows="5" maxlength="500"></textarea><br>
+            <h2>Ingrese un icono para el Sondeo</h2>
+            <input class="boton"type="file" name="icono"><br>
+            
+            <h2>Sexo a quien va dirigido</h2>
+            <h4>Hombre</h4>
+            <input class="radio" type="checkbox" name="1">
+            <h4>Mujer</h4>
+            <input class="radio" type="checkbox">
+            <h4>Indefinido</h4>
+            <input class="radio" type="checkbox">
+            <h4>Intersexual</h4>
+            <input class="radio" type="checkbox">
+            <h2>Quien puede opinar en este sondeo?</h2>
+            <select name="seleccionPublico" id="seleccionPublico" required>
+                <option value="0">seleccione la opcion</option>
+                <option value="1">Adolecentes</option>
+                <option value="2">Adultos</option>
+                <option value="3">Adultos mayores</option>
+                <option value="8">Publico en general</option>
+            </select>
+                <h2>Geografica</h2>
+                <h4>Organizaciones</h4>
+                <input class="radio" type="checkbox">
+                <h4>Ciudad</h4>
+                <input class="radio" type="checkbox">
+                <h4>Municipios</h4>
+                <input class="radio" type="checkbox">
+                <h4>Veredas</h4>
+                <input class="radio" type="checkbox">
+            
+            <center><input id="crear"type="submit" value="Publicar sondeo"></center>
+        </form>
+    </div>
+    
+</body>
+<footer>
+    <h1>ESTA PAGINA ES PARA USO DE OPINIONES CIUDADANAS SIN IMPORTAR TU ETNIA, EDAD, DEFICIT FISICO, PUEDES HACER USO DE ESTA PARA EXPRESARTE SIN LIMITES YA QUE LA VOZ DEL PUEBLO NO PUEDE SER CALLADA</h1>
+    <h2>Copyright ©2022</h2>
+</footer>
+</html>
