@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:"busqueda menu"; 
+    gap:30vh;
+    font-size: 3vh;
+    padding:2vh;
+    text-align:right;
+    background-color: black;
+}
+.busqueda{
+    text-align:center;
+    grid-area: busqueda;
+}
+.buscador{
+    margin: 1vh 3vh;
+    font-size:2.5vh;
+}
+.menu{
+    grid-area: menu;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding:1vh; 
+}
+
+nav li:hover{
+    background-color: gray;
+    transform: translateY(-5px);
+}
+.container{
+    margin:4vh 10vh;
+    display: grid;
+    grid-template-columns: 110vh 50vh;
+    grid-template-areas:"datoBasico usuario";
+    gap:10vh;
+}
+.datoBasico{
+    grid-area: datoBasico;
+    padding: 2vh;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 4px gray;
+}
+.datoBasico h1{
+    text-align: center;
+    margin:5vh 0vh;
+}
+.datoBasico h2{
+    margin:2vh 0vh;
+    text-align: left;
+}
+.usuario{
+    grid-area:usuario;
+    text-align: center;
+    padding: 2vh;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 4px gray;
+}
+.usuario .foto{
+    text-align: center;
+    max-width: 60vh;
+    max-height: 50vh;
+    background-color:gray;
+    border-radius:100%;
+}
+.usuario .referencia{
+    text-align: left;
+    margin:10vh 0vh;
+    padding:2vh;
+    border: 1px solid black;
+}
+.referencia h2{
+    margin:2vh 0vh;
+    text-align: left;
+}
+.referencia p{
+    margin:2vh 0vh;
+    text-align: center;
+}
+.cerrar-salir{
+    text-align: left;
+    margin:10vh 0vh;
+    padding:2vh;
+    border: 1px solid black;
+}
+.cerrar-salir h2{
+    margin: 4vh 0vh;
+}
+input{
+    margin-bottom:4vh;
+}
+footer{
+    padding:2vh;
+    background-color: black;
+}
+footer h1{
+    color:white;
+    font-size:3vh;
+}
+footer h2{
+    text-align:center;
+    margin:3vh 0vh;
+    color:white;
+    font-size:2vh;
+}
