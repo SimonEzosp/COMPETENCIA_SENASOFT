@@ -1,0 +1,96 @@
+*{ margin:0; padding:0; }
+a{
+    color: white;
+    text-decoration: none;
+}
+h1,h2,h4{
+    color:white;
+    opacity:90%;
+}
+body{
+    background-color: whitesmoke;
+}
+nav{
+    font-size: 3vh;
+    padding:2vh;
+    text-align:right;
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding:1vh; 
+}
+
+nav li:hover{
+    background-color: gray;
+    transform: translateY(-5px);
+}
+.crearSondeo{
+    border:1px solid black;
+    padding:4vh;
+    background-color: black;
+    margin: 10vh 50vh;
+    box-shadow: 0px 0px 10px gray;
+}
+.crearSondeo h1{
+    font-size:9vh;
+    text-align:center;
+}
+.crearSondeo h2{
+    margin:2vh 0vh;
+    font-size:5vh;
+    text-align:center;
+}
+.crearSondeo h4{
+    font-size:5vh;
+    text-align:justify;
+}
+.box{
+    margin:3vh 0vh;
+    font-size:3vh;
+    box-shadow: 0px 0px 5px gray;
+}
+.radio{
+    margin:3vh 0vh;
+    font-size:3vh;
+    box-shadow: 0px 0px 2px gray;
+}
+select{
+    margin:3vh 0vh;
+    font-size:3vh;
+    box-shadow: 0px 0px 2px gray;
+}
+textarea{
+    margin:3vh 0vh;
+    font-size:3vh; 
+    box-shadow: 0px 0px 5px gray; 
+}
+.boton{
+    color:white;
+    margin:6vh 0vh;
+    box-shadow: 0px 0px 2px gray;
+}
+#crear{
+    margin:2vh 0vh;
+    font-size:2vh;
+    box-shadow: 0px 0px 2px gray;
+}
+footer{
+    padding:2vh;
+    background-color: black;
+}
+footer h1{
+    color:white;
+    font-size:3vh;
+}
+footer h2{
+    text-align:center;
+    margin:3vh 0vh;
+    color:white;
+    font-size:2vh;
+}
