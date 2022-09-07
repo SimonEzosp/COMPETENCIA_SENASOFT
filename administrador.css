@@ -1,15 +1,8 @@
-*{margin:0;padding:0;}
-
+*{ margin: 0; padding: 0;}
 a{
     color: white;
     text-decoration: none;
 }
-
-textarea{
-    font-size:2.5vh;
-    font-weight:bold;
-}
-
 nav{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -31,7 +24,6 @@ nav{
 .menu{
     grid-area: menu;
 }
-
 nav ul{
     list-style: none;
 }
@@ -45,7 +37,6 @@ nav li:hover{
     background-color: gray;
     transform: translateY(-5px);
 }
-
 .contenedor{
     margin: 2vh 10vh;
     display: grid;
@@ -65,10 +56,7 @@ nav li:hover{
     margin: 3vh 10vh;
     background-color: gray;
     box-shadow: 0px 0px 2px black;
-}
-.cards:hover{
-    transform: translateX(20px);
-}
+ }
 
 .cards h1{
     margin:2vh;
@@ -95,12 +83,8 @@ nav li:hover{
     padding:2vh;
     margin: 3vh 10vh;
     background-color: gray;
-    box-shadow: 0px 0px 4px gray;
     box-shadow: 0px 0px 2px black;
  }
-.card:hover{
-    transform: translateX(-20px);
-}
 
  .card h1{
     margin:2vh;
